@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Neon Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="sidebar left">
+            <div class="stat-box">
+                <h2>PUNTI</h2>
+                <div id="score">0</div>
+            </div>
+            <div class="stat-box">
+                <h2>LIVELLO</h2>
+                <div id="level">1</div>
+            </div>
+            <div class="stat-box">
+                <h2>LINEE</h2>
+                <div id="lines">0</div>
+            </div>
+            <button id="quit-btn" class="secondary-btn">ESCI</button>
+            <div class="sound-controls">
+                <button id="mute-btn">🔊</button>
+            </div>
+        </div>
+        
+        <div class="main-board">
+            <div id="start-screen">
+                <h1>TETRIS</h1>
+                <p>NEON EDITION</p>
+                <button id="start-btn">GIOCA</button>
+            </div>
+            <canvas id="tetris"></canvas>
+            <div id="game-over" class="hidden">
+                <h1>GAME OVER</h1>
+                <button id="restart-btn">RIPROVA</button>
+            </div>
+        </div>
+
+        <div class="sidebar right">
+            <div class="stat-box next-box">
+                <h2>PROSSIMO</h2>
+                <canvas id="next"></canvas>
+            </div>
+            <div class="controls">
+                <h3>COMANDI</h3>
+                <p>⬅️ ➡️ Muovi</p>
+                <p>⬆️ Ruota</p>
+                <p>⬇️ Giù veloce</p>
+                <p>Space: Drop</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

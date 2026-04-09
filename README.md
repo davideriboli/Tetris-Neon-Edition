@@ -1,6 +1,6 @@
 # Tetris Neon Edition 🕹️✨
 
-Un clone moderno e vibrante del leggendario **Tetris**, realizzato interamente in **Vanilla HTML, CSS e JavaScript**. Questa versione presenta un'estetica cyberpunk neon, effetti sonori sintetizzati e una rivisitazione della colonna sonora originale.
+Un clone moderno e vibrante del leggendario **Tetris**, realizzato interamente in **Vanilla HTML, CSS e JavaScript**. Questa versione presenta un'estetica cyberpunk neon, effetti sonori sintetizzati e una rivisitazione della colonna sonora originale. Provalo on-line con un clic su [https://davideriboli.github.io/Tetris-Neon-Edition/](https://davideriboli.github.io/Tetris-Neon-Edition/).
 
 ---
 
@@ -8,13 +8,13 @@ Un clone moderno e vibrante del leggendario **Tetris**, realizzato interamente i
 
 Il gioco originale **Tetris** è stato creato nel 1984 da **Alexey Pajitnov**.  
 Tutti i diritti sul marchio e sul design originale appartengono a **The Tetris Company**.  
-Questa è un'opera a scopo educativo e amatoriale, un tributo a uno dei videogiochi più iconici della storia.
+Questa è un'opera a scopo educativo e amatoriale, ispirata a uno dei videogiochi più iconici della storia.
 
 ---
 
 ## 🛠️ Come è stato creato
 
-Questo progetto è stato sviluppato con l'obiettivo di creare un'applicazione web completa senza l'ausilio di librerie esterne o framework pesanti.
+Questo progetto è stato sviluppato con l'obiettivo di creare un'applicazione web completa senza l'ausilio di librerie esterne o framework pesanti. L'intero progetto è stato codificato con un prompt one shot in [Google Gemini CLI](https://github.com/google-gemini/gemini-cli). La creazione ha richiesto 06:42 minuti, utilizzando gemini-2.5-flash-lite e gemini-3-flash-preview.
 
 ### Tecnologie utilizzate:
 - **HTML5 Canvas API**: Per il rendering fluido della griglia di gioco e dei pezzi (Tetromino).
